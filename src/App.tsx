@@ -475,7 +475,7 @@ function Hero() {
           position: "absolute",
           inset: 0,
           background:
-            "linear-gradient(to bottom, rgba(26,26,46,0.3) 0%, rgba(26,26,46,0.2) 60%, rgba(26,26,46,0.4) 85%, #fafafa 100%)",
+            "linear-gradient(to bottom, rgba(26,26,46,0.3) 0%, rgba(26,26,46,0.25) 70%, rgba(26,26,46,0.5) 100%)",
         }}
       />
       <div
@@ -1155,7 +1155,7 @@ function ParallaxCTA() {
           position: "absolute",
           inset: 0,
           background:
-            "linear-gradient(to bottom, rgba(26,26,46,0.6), rgba(26,26,46,0.4), rgba(26,26,46,0.4), rgba(26,26,46,0.6))",
+            "linear-gradient(to bottom, rgba(26,26,46,0.7), rgba(26,26,46,0.55), rgba(26,26,46,0.55), rgba(26,26,46,0.7))",
         }}
       />
       <div
@@ -1174,7 +1174,7 @@ function ParallaxCTA() {
         <Reveal>
           <p
             style={{
-              color: "rgba(255,255,255,0.75)",
+              color: "#ffffff",
               fontSize: "clamp(18px, 3vw, 28px)",
               fontWeight: 300,
               letterSpacing: "0.1em",
