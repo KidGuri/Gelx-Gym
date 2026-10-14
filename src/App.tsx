@@ -305,7 +305,8 @@ function Navbar() {
             alt="Club Gelx"
             style={{
               height: 45,
-              filter: scrolled ? "none" : "brightness(0) invert(1)",
+              filter: scrolled ? "none" : "invert(1)",
+              mixBlendMode: scrolled ? "multiply" : "screen",
               transition: "filter 0.5s",
             }}
           />
@@ -511,7 +512,8 @@ function Hero() {
             className="hero-logo"
             style={{
               margin: "0 auto 48px",
-              filter: "brightness(0) invert(1)",
+              filter: "invert(1)",
+              mixBlendMode: "screen",
             }}
           />
         </motion.div>
@@ -1529,7 +1531,7 @@ function Footer() {
         <img
           src="/logo.jpg"
           alt="Club Gelx"
-          style={{ height: 45 }}
+          style={{ height: 45, mixBlendMode: "multiply" }}
         />
 
         <div
