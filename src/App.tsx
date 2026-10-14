@@ -301,13 +301,11 @@ function Navbar() {
       >
         <a href="#">
           <img
-            src="/logo.jpg"
+            src={scrolled ? "/logo.png" : "/logo-white.png"}
             alt="Club Gelx"
             style={{
               height: 45,
-              filter: scrolled ? "none" : "invert(1)",
-              mixBlendMode: scrolled ? "multiply" : "screen",
-              transition: "filter 0.5s",
+              transition: "opacity 0.5s",
             }}
           />
         </a>
@@ -507,13 +505,11 @@ function Hero() {
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
           <img
-            src="/logo.jpg"
+            src="/logo-white.png"
             alt="Club Gelx"
             className="hero-logo"
             style={{
               margin: "0 auto 48px",
-              filter: "invert(1)",
-              mixBlendMode: "screen",
             }}
           />
         </motion.div>
@@ -1529,9 +1525,9 @@ function Footer() {
         }}
       >
         <img
-          src="/logo.jpg"
+          src="/logo.png"
           alt="Club Gelx"
-          style={{ height: 45, mixBlendMode: "multiply" }}
+          style={{ height: 45 }}
         />
 
         <div
