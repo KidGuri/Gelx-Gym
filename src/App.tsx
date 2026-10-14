@@ -475,7 +475,7 @@ function Hero() {
           position: "absolute",
           inset: 0,
           background:
-            "linear-gradient(to bottom, rgba(26,26,46,0.4), rgba(26,26,46,0.5), #fafafa)",
+            "linear-gradient(to bottom, rgba(26,26,46,0.3) 0%, rgba(26,26,46,0.2) 60%, rgba(26,26,46,0.4) 85%, #fafafa 100%)",
         }}
       />
       <div
